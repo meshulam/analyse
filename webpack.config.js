@@ -10,7 +10,6 @@ module.exports = {
 		jsonpCallback: "a"
 	},
 	module: {
-		noParse: /sigma\.min\.js/,
 		loaders: [
 			{ test: /\.json$/, loader: "json-loader" },
 			{ test: /\.jade$/, loader: "jade-loader" },
